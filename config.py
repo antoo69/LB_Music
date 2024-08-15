@@ -13,6 +13,9 @@ API_HASH = getenv("API_HASH", "")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN", None)
 
+# Paste the username of your group/channel that you want to make a forcesub
+MUST_JOIN = getenv("MUST_JOIN")
+
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
@@ -31,15 +34,15 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
-    "UPSTREAM_REPO", "https://github.com/Learningbots79/LB_Music", # dont Change this otherwise u get error 🧧
+    "UPSTREAM_REPO", "https://github.com/antoo69/MusicFS", # dont Change this otherwise u get error 🧧
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/learningbots79")
-SUPPORT_CHAT = getenv("SUPPORT_GROUP", "https://t.me/learning_bots")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/filmlk21")
+SUPPORT_CHAT = getenv("SUPPORT_GROUP", "https://t.me/BestieVirtual")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -77,18 +80,18 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/214f53702f788c668e294.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/c2088b279b91b8cb4d6d8.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/214f53702f788c668e294.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/413563697481be97ad686.jpg"
 )
-PLAYLIST_IMG_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
-STATS_IMG_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/fd6ba5d3cbad68f0ec6eb.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/b942b7da4e3aa23a44f2b.jpg"
 TELEGRAM_AUDIO_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
 TELEGRAM_VIDEO_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
 STREAM_IMG_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
 SOUNCLOUD_IMG_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph/file/feacb09fbb12b61a9466a.jpg"
 SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
 SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
 SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/214f53702f788c668e294.jpg"
