@@ -27,7 +27,7 @@
 - install bash : `bash install_node.sh`
 - enter your cookies in: `nano cookies.txt` 
 - check your cookies :`bash testing.sh`
-- edit your vars in : `.env sample.env .env`
+- edit your vars in : `cp sample.env .env`
 - paste your vars in : `nano .env`
 - install tmux or screen to run the bot 
 -`sudo apt install tmux && tmux`
